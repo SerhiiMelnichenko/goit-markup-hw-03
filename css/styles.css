@@ -3,11 +3,35 @@ font-family:"Roboto", sans-serif;
 color:#434455;
 background-color: #fff;
 }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{ margin-top: 0;
+    margin-bottom: 0;
+
+}
+ul,
+ol {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.container{
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
 a{
     text-decoration:none;
 }
 
-ul, ol{list-style:none}
+
 
 .logo{
         font-family:"Raleway", sans-serif;
