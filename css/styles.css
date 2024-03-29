@@ -38,7 +38,7 @@ a{
 
 }
 
-.nav-logo{display: flex;}
+.nav-logo{}
 
 .logo{
         font-family:"Raleway", sans-serif;
@@ -54,7 +54,7 @@ a{
         color:#2e2f42;
 }
 .nav-link-list{
-    display: flex;
+    ;
 }
 .nav-link{
         font-weight:500;
@@ -71,7 +71,7 @@ a{
 .address{
     font-style: normal;
 }
-.address-link-list{ display: flex;}
+.address-link-list{ }
 .address-link{
     font-style:normal;
     font-size:16px;
@@ -86,12 +86,11 @@ a{
 /*service*/
 .div-service{
 background: #2e2f42;
+padding: 188px 472px 292px 472px ;
 }
-.service {
+.service {padding-bottom: 120px;
 
-width: 1440px;
-height: 600px;
-margin: 0 auto;}
+}
 
 .service-title{
         font-weight:700;
@@ -101,9 +100,8 @@ margin: 0 auto;}
         text-align:center;
         color:#fff;
         max-width: 496px;
-        padding-top: 188px;
-        padding-bottom: 188px;
-        margin: 0 auto;
+        padding-bottom: 48px;
+        
 }
 
 .service-button{
@@ -122,6 +120,10 @@ margin: 0 auto;}
 
 
 /*Solutions*/
+.section-sulution{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .ul-solutions{
     display: flex;
 }
@@ -144,6 +146,8 @@ margin: 0 auto;}
 
 .team{
 background:#f4f4fd;
+padding-bottom: 120px;
+padding-top: 120px;
 }
 
 .team-title{
@@ -180,7 +184,11 @@ background:#f4f4fd;
 
 /*portfolio*/
 .portfolio{
-background-color: #FFFFFF
+background-color: #FFFFFF;
+padding-top: 120px;
+padding-bottom: 120px;
+
+
 }
 
 .portfolio-title{
@@ -212,7 +220,10 @@ background-color: #FFFFFF
 }
 
 /*footer*/
-.footer {background:#2e2f42;}
+.footer {background:#2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 .logo-part-footer{
     color: #f4f4fd;
@@ -223,5 +234,6 @@ background-color: #FFFFFF
     line-height:1.5;
     letter-spacing:0.02em;
     color:#f4f4fd;
-padding-bottom: 100px;
-padding-top: 16px;}
+    padding-top: 16px;
+    max-width: 264px;
+}
