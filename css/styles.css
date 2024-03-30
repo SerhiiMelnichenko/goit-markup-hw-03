@@ -114,13 +114,15 @@ align-items: center;
 }
 
 /*service*/
+.service{
+padding: 188px 0;
+    
+}
 .div-service{
 background: #2e2f42;
-padding-top: 188px;
-padding-bottom: 188px;
+padding: 188px 0;
 }
-.service{
-}
+
 
 .service-title{
         font-weight:700;
@@ -156,11 +158,10 @@ padding-bottom: 188px;
 
 /*Solutions*/
 .section-sulution{
-    
+    padding: 120px 0;
 }
 .container-solutions{
-    padding-top: 120px;
-    padding-bottom: 120px;
+
 }
 .ul-solutions{
     display: flex;
@@ -242,8 +243,6 @@ height: 380px;}
 background-color: #FFFFFF;
 padding-top: 120px;
 padding-bottom: 120px;
-
-
 }
 
 .portfolio-title{
@@ -256,6 +255,7 @@ padding-bottom: 120px;
         text-transform: capitalize;
         padding-bottom: 32px;
         margin: 0 auto;
+        margin-bottom: 72px;
 }
 .portfolio-fon-col{
 background-color: #FFFFFF
@@ -265,11 +265,13 @@ background-color: #FFFFFF
     display: flex;
     width: calc((100%-2*36px)/3);
     gap: 24px;
+    flex-wrap: wrap;
 }
 .portfolio-row-two {
     display: flex;
     width: calc((100%-2*36px)/3);
-    gap: 24px;}
+    gap: 24px;
+flex-wrap: wrap;}
 
 .portfolio-subtitle-pro {
     font-weight:500;
@@ -289,7 +291,7 @@ background-color: #FFFFFF
     padding-bottom: 32px;
 }
 
-/*footer*/
+/*----------------FOOTER----------------*/
 .footer {padding: 100px 0;
 
 }
@@ -298,15 +300,13 @@ background-color: #FFFFFF
     padding-top: 100px;
     padding-bottom: 100px;
     width: 1440px;
+}
     
-    
-    }
-    
-
 .logo-part-footer{
     color: #f4f4fd;
     padding-top: 100px;
 }
+
 .logo-footer-link{
     font-family: "Raleway", sans-serif;
         font-weight: 700;
