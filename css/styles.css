@@ -175,12 +175,12 @@ margin: 0 auto;
 
 .ul-solutions{
     display: flex;
-    gap: 40px;
+    gap: 24px;
 }
     
-.li-solutions-list:last-child{
+/*.li-solutions-list:last-child{
     margin-right: 0;
-}
+}*/
 
 .solutions-subtitle{
     font-weight:500;
