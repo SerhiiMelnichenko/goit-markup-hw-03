@@ -206,9 +206,7 @@ margin-right: 24px;
 width: calc((100% - 72px) / 4);
 }
 
-.li-solutions-list:last-of-type{
-margin-right: 24px;
-}
+
 /*---------TEAM-------------*/
 
 .team{
