@@ -228,12 +228,15 @@ padding-top: 120px;
         text-transform: capitalize;
         padding-top: 72px;
         padding-bottom: 72px;
+        margin-bottom: 72px;
 }
 
 .team-item-fon{
     background-color: #FFFFFF;
 height: 380px;}
-    
+    .team-sbt-prof{
+    padding-top: 32px;
+    padding-bottom: 32px;}
     
     .team-background{background: #f4f4fd;}
 
@@ -246,6 +249,8 @@ height: 380px;}
         text-align:center;
         color:#2e2f42;
         padding-bottom: 8px;
+        text-align: center;
+        margin-bottom: 8px;
 }
 
 .team-subtitle-link{
@@ -255,6 +260,7 @@ height: 380px;}
         text-align:center;
         color:#434455;
         padding-bottom: 32px;
+        text-align: center;
 }
 
 
