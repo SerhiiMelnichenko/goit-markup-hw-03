@@ -161,16 +161,28 @@ margin: 0 auto;
     padding-top: 120px;;
     padding-bottom: 120px;
 }
-.solutions{visibility: hidden;
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 0;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
 }
+
 
 .ul-solutions{
     display: flex;
     gap: 40px;
 }
 .ul-solutions (:first-child){flex-basis: calc((100% - 72px) / 4)
-
 }
+.ul-solutions (:last-child) {flex-basis: calc((100% - 72px) / 4)}
+
 .solutions-subtitle{
     font-weight:500;
     font-size:20px;
