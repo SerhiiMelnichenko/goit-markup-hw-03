@@ -116,11 +116,12 @@ align-items: center;
 /*service*/
 .service{
 padding: 188px 0;
+background: #2e2f42;
     
 }
 .div-service{
-background: #2e2f42;
-padding: 188px 0;
+
+
 }
 
 
