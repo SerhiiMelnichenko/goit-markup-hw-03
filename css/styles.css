@@ -31,18 +31,21 @@ ol {
 a{
     text-decoration:none;
 }
+img{display: block;}
 /*Header*/
 .header{
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom:1px solid #e7e9fc
+
     
 }
-.container-header{}
+.container-header{ display: flex;}
 .div-container{
  display: flex; 
  align-items: center;  
 }
-.nav-header{display: flex;}
+.nav-header-container{display: flex;}
 .logo-nav-link{
     
 }
@@ -296,7 +299,7 @@ background-color: #FFFFFF
 }
 
 /*footer*/
-.footer {
+.footer {padding: 100px 0;
 
 }
 .footer-background{
@@ -321,6 +324,8 @@ background-color: #FFFFFF
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
 .footer-text {
