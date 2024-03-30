@@ -154,7 +154,7 @@ margin: 0 auto;
 .service-button:focus{background-color:#404BBF;}
 
 
-/*Solutions*/
+/*-----------SOLUTIONS-----------*/
 .section-solution{
     padding-top: 120px;;
     padding-bottom: 120px;
@@ -178,10 +178,6 @@ margin: 0 auto;
     gap: 24px;
 }
     
-/*.li-solutions-list:last-child{
-    margin-right: 0;
-}*/
-
 .solutions-subtitle{
     font-weight:500;
     font-size:20px;
