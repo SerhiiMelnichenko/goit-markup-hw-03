@@ -297,8 +297,9 @@ padding-bottom: 120px;
 }
 .portfolio-fon-col{
 background-color: #FFFFFF
+width: calc((100% - 48px) / 3);
 }
-.portfolio-fon-col:first-child{width: calc((100% - 48px) / 3);}
+.portfolio-fon-col:first-child{}
 .portfolio-row-one{
     margin-bottom: 32px;
     display: flex;
