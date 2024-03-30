@@ -45,7 +45,9 @@ img{display: block;}
     align-items: center;
 }
 
-.nav-header-container{display: flex;}
+.nav-header-container{
+display: flex;
+align-items: center;}
 .logo-nav-link{
     
 }
@@ -83,6 +85,8 @@ margin-right: 40px;
         
 }
 .nav-link-li{
+    padding-top: 24px;
+    padding-bottom: 24px;
     
 }
 .nav-link:hover,
