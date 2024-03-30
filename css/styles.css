@@ -116,10 +116,10 @@ align-items: center;
 /*service*/
 .div-service{
 background: #2e2f42;
-
+padding-top: 188px;
+padding-bottom: 188px;
 }
 .service {
-
 }
 
 .service-title{
@@ -131,13 +131,7 @@ background: #2e2f42;
         color:#fff;
         max-width: 496px;
         margin: 0 auto;
-        padding-top: 188px;
-        padding-bottom: 188px
-        
-        
-        
-        
-}
+        }
 
 .service-button{
     background:#4d5ae5;
@@ -150,7 +144,7 @@ background: #2e2f42;
     border-radius: 4px;
     padding: 16px 30px 26px 32px;
     height: 56px;
-    width: 169px;
+    min-width: 169px;
     }
     .service-button{margin: 0 auto;
     display: block;
