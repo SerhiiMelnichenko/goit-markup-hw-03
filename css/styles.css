@@ -17,8 +17,7 @@ h6{ margin-top: 0;
 ul,
 ol {
     list-style: none;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin:0;
     padding-left: 0;
 }
 .container{
@@ -222,6 +221,7 @@ padding-top: 120px;
     display: flex;
     gap: 24px;
 }
+
 .team-item-fon:first-child,
 .team-item-fon:last-child{
 width: calc((100% - 72px) / 4);
@@ -253,6 +253,7 @@ border-radius: 0px 0px 4px 4px;}
     .team-background{background: #f4f4fd;}
 
 .img-team{padding-bottom: 32px;}
+
 .team-subtitle{
         font-weight:500;
         font-size:20px;
@@ -298,9 +299,6 @@ padding-bottom: 120px;
 .portfolio-fon-col{
 background-color: #FFFFFF;
 width: calc((100% - 48px) / 3);
-padding-left: 0;
-margin: 0;;
-
 }
 
 .portfolio-row-one{
@@ -311,11 +309,6 @@ margin: 0;;
     flex-wrap: wrap;
     row-gap: 48px;
 }
-.portfolio-row-two {
-    display: flex;
-    width: calc((100%-2*36px)/3);
-    gap: 24px;
-flex-wrap: wrap;}
 
 .portfolio-subtitle-pro {
     font-weight:500;
