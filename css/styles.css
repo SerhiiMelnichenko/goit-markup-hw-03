@@ -161,15 +161,14 @@ margin: 0 auto;
     padding-top: 120px;;
     padding-bottom: 120px;
 }
-.container-solutions{
-
-
+.solutions{visibility: hidden;
 }
+
 .ul-solutions{
     display: flex;
     gap: 40px;
 }
-.ul-solutions(:first-child){flex-basis: calc((100% - 72px) / 4)
+.ul-solutions (:first-child){flex-basis: calc((100% - 72px) / 4)
 
 }
 .solutions-subtitle{
