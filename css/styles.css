@@ -180,7 +180,7 @@ margin: 0 auto;
     gap: 40px;
 }
 .li-solutions-list:first-child{flex-basis: calc((100% - 72px) / 4);
-border-radius: 0px 0px 4px 4px}
+border-radius: 0px 0px 4px 4px;}
 .li-solutions-list:last-child{flex-basis: calc((100% - 72px) / 4)}
 
 .solutions-subtitle{
