@@ -40,11 +40,11 @@ img{display: block;}
 
     
 }
-.container-header{ display: flex;}
-.div-container{
- display: flex; 
- align-items: center;  
+.container-header{ 
+    display: flex;
+    align-items: center;
 }
+
 .nav-header-container{display: flex;}
 .logo-nav-link{
     
@@ -58,6 +58,7 @@ img{display: block;}
         letter-spacing:0.03em;
         text-transform:uppercase;
         color: #4d5ae5;
+        margin-right: 76px;
         }
 
 .logo-part{
@@ -67,9 +68,11 @@ img{display: block;}
 .nav-link-list{
 display: flex;
 gap: 40px;
-margin-left: 76px;
 align-items: center;
-
+margin-right: 40px;
+}
+.nav-link-list:last-child{
+    margin-right: 0;
 }
 .nav-link{
         font-weight:500;
@@ -90,13 +93,15 @@ align-items: center;
 .address{
     font-style: normal;
     display: flex;
+    margin-left: auto;
     
 }
 .address-link-list{
     display: flex;
     gap: 40px;
     align-items: center;
-    margin-left: 325px;
+    
+    
     
 
 }
