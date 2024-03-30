@@ -215,8 +215,12 @@ padding-top: 120px;
 .team-list{
     display: flex;
     gap: 24px;
-
 }
+.team-list (:first-child),
+.team-list (:last-child)
+{
+    width: calc((100% - 72px) / 4);}
+
 .team-title{
         font-weight:700;
         font-size:36px;
