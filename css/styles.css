@@ -202,10 +202,7 @@ border-radius: 0px 0px 4px 4px;
 
 /*---------TEAM-------------*/
 
-.team{
-
-padding-bottom: 120px;
-padding-top: 120px;
+.team{background: #f4f4fd;
 }
 
 .team-list{
@@ -227,23 +224,21 @@ border-radius: 0px 0px 4px 4px;}
         color:#2e2f42;
         background: #f4f4fd;
         text-transform: capitalize;
-        padding-top: 72px;
-        padding-bottom: 72px;
+        
         margin-bottom: 72px;
 }
 
 .team-item-fon{
     background-color: #FFFFFF;
-height: 380px;
 border-radius: 0px 0px 4px 4px;}
 
     .team-sbt-prof{
     padding-top: 32px;
     padding-bottom: 32px;}
     
-    .team-background{background: #f4f4fd;}
+    /*.team-background{background: #f4f4fd;}*/
 
-.img-team{padding-bottom: 32px;}
+.img-team{}
 
 .team-subtitle{
         font-weight:500;
@@ -252,7 +247,6 @@ border-radius: 0px 0px 4px 4px;}
         letter-spacing:0.02em;
         text-align:center;
         color:#2e2f42;
-        padding-bottom: 8px;
         text-align: center;
         margin-bottom: 8px;
 }
@@ -263,7 +257,6 @@ border-radius: 0px 0px 4px 4px;}
         letter-spacing:0.02em;
         text-align:center;
         color:#434455;
-        padding-bottom: 32px;
         text-align: center;
 }
 
@@ -283,8 +276,6 @@ padding-bottom: 120px;
         text-align:center;
         color:#2e2f42;
         text-transform: capitalize;
-        padding-bottom: 32px;
-        margin: 0 auto;
         margin-bottom: 72px;
 }
 .portfolio-fon-col{
@@ -293,9 +284,7 @@ width: calc((100% - 48px) / 3);
 }
 
 .portfolio-row-one{
-    margin-bottom: 32px;
     display: flex;
-    
     gap: 24px;
     flex-wrap: wrap;
     row-gap: 48px;
@@ -307,8 +296,6 @@ width: calc((100% - 48px) / 3);
     line-height:1.2;
     letter-spacing:0.02em;
     color:#2e2f42;
-    padding-bottom: 8px;
-    padding-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -317,7 +304,6 @@ width: calc((100% - 48px) / 3);
     line-height:1.5;
     letter-spacing:0.02em;
     color:#434455;
-    padding-bottom: 32px;
 }
 .port-pro-text{
 padding: 32px 16px;
@@ -327,13 +313,12 @@ border-top: none;
 
 /*----------------FOOTER----------------*/
 .footer {padding: 100px 0;
+    background: #2e2f42;
 
 }
 .footer-background{
-    background: #2e2f42;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    width: 1440px;
+    
+    
 }
     
 .logo-part-footer{
@@ -358,6 +343,5 @@ border-top: none;
     line-height:1.5;
     letter-spacing:0.02em;
     color:#f4f4fd;
-    padding-top: 16px;
     max-width: 264px;
 }
